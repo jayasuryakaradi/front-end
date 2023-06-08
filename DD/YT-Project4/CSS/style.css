@@ -1,0 +1,95 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+html,body{
+    line-height: 1.4;
+    font-weight: 300;
+}
+
+.hero_section{
+    background-image: url(../Images/developer.png);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+
+.text_container{
+    color:white;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 64px;
+    padding-left: 16px;
+}
+.hi_text_large{
+    font-size: 72px;
+}
+.role_font{
+    text-transform: uppercase;
+}
+.quote_black_box{
+    min-width: 100%;
+    background-color: black;
+    color:white;
+    padding:50px 0;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 40px;
+}
+.work{
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    max-width: 1100px;
+    margin:50px auto;
+}
+.card{
+    max-width: 320px;
+    height:400px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+    transition: 0.2s ease-in-out;
+}
+.card:hover{
+    transform: scale(1.04);
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.3);
+    transition: 0.2s ease-in-out;
+}
+.grid_item{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.card_content{
+    padding:20px;
+}
+.card_content h3{
+    margin-bottom: 10px;
+}
+.bottom_section{
+    display: flex;
+    justify-content: center;
+}
+.contact,.about_me{
+    width: 50%; 
+    padding: 20px;
+    color:white;
+}
+.contact{
+    background-color: #515603;
+}
+.about_me{
+    background-color: #723300;
+}
+.about_me,h2{
+    padding-bottom: 10px;
+}
+footer{
+    text-align: center;
+}
+footer, a{
+    text-decoration: none;
+}
